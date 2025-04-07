@@ -17,12 +17,13 @@ debug = true
 adobe-cmap-parser = "0.4.1"
 encoding_rs = "0.8.34"
 euclid = "0.20.5"
-lopdf = {version = "0.36", default-features = false}
+lopdf = { git = "https://github.com/spiceai/lopdf.git", rev = "a0c08a6e954b75d725476df5682ad0d418a96246", default-features = false }
 postscript = "0.14"
 type1-encoding-parser = "0.1.0"
 unicode-normalization = "0.1.19"
 cff-parser = "0.1.0"
 log = "0.4.22"
+tracing = "0.1.41"
 
 [dev-dependencies]
 ureq = "2.6.2"
